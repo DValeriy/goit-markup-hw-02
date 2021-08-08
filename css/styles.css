@@ -179,7 +179,10 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
+.feature-header,
+.portfolio-header {
+  visibility: hidden;
+}
 .feature-title {
   color: var(--secondary-text-color);
   font-weight: 700;
